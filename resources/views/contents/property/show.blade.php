@@ -219,6 +219,6 @@
         }).addTo(map);
 
         const marker = L.marker([{{ $property->latitude }}, {{ $property->longitude }}]).addTo(map);
-        marker.bindPopup('').openPopup();
+        marker.bindPopup('{{ $property->name }}').openPopup();
     </script>
 @endpush
