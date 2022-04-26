@@ -135,14 +135,14 @@
                                     </ul>
                                 </div>
                                 <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                    <li><span>{{ $item->number_bedroom }} </span>
-                                        Bed
+                                    <li>
+                                        <span><i class="fa-solid fa-bed-empty"></i> {{ $item->number_bedroom }} </span>
                                     </li>
-                                    <li><span>{{ $item->number_bathroom }} </span>
+                                    <li><span><i class="fa-solid fa-bath"></i> {{ $item->number_bathroom }} </span>
                                         Bath
                                     </li>
-                                    <li><span>{{ $item->square }} </span>
-                                        Square m2
+                                    <li><span><i class="fa-solid fa-square"></i> {{ $item->square }} </span>
+                                        &#13217;
                                     </li>
                                 </ul>
                             </div>

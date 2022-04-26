@@ -42,7 +42,7 @@
                                 {!! $categoryNameRenderHtml !!}
                             </ul>
                             <ul>
-                                <li><label>Square: </label> <span>{{ $property->square }} m²</span></li>
+                                <li><label>Square: </label> <span>{{ $property->square }} &#13217;</span></li>
                                 <li><label>Baths:</label> <span>{{ $property->number_bathroom }}</span></li>
                                 <li><label>Beds:</label> <span>{{ $property->number_bedroom }}</span></li>
                                 <li><label>Beds:</label> <span>{{ $property->number_floor }}</span></li>
@@ -127,14 +127,13 @@
                                             </ul>
                                         </div>
                                         <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                            <li><span>{{ $item->number_bedroom }} </span>
-                                                Bedrooms
+                                            <li>
+                                                <span><i class="fa-solid fa-bed-empty"></i> {{ $item->number_bedroom }} </span>
                                             </li>
-                                            <li><span>{{ $item->number_bathroom }} </span>
-                                                Bathrooms
+                                            <li><span><i class="fa-solid fa-bath"></i> {{ $item->number_bathroom }} </span>
                                             </li>
-                                            <li><span>{{ $item->square }} </span>
-                                                Ft
+                                            <li><span><i class="fa-solid fa-square"></i> {{ $item->square }} </span>
+                                                &#13217;
                                             </li>
                                         </ul>
                                         <div class="product-hover-action">
