@@ -167,7 +167,7 @@ require('./bootstrap');
 
 
         /* --------------------------------------------------------
-            5. Toogle Search
+            5. Toggle Search
         -------------------------------------------------------- */
         // Handle click on toggle search button
         $('.header-search-1').on('click', function() {

@@ -24,11 +24,10 @@ require('lightcase');
 window.waypoints = waypoints;
 window.counterUp = require('../vendors/js/jquery.counterup');
 require('jquery-countdown');
-//Instagram Feed
 window.niceSelect = require('../vendors/js/jquery.nice-select.min.js');
 require('../vendors/js/jquery.scrollUp.js');
 require('../vendors/js/jquery.easing.1.3.js');
-window.slider = slider;
+// window.slider = slider;
 window.WOW = WOW;
 require('../vendors/js/share.js');
 
@@ -53,9 +52,9 @@ import Echo from 'laravel-echo';
 
 window.Pusher = require('pusher-js');
 
-// window.Echo = new Echo({
-//     broadcaster: 'pusher',
-//     key: process.env.MIX_PUSHER_APP_KEY,
-//     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-//     forceTLS: true
-// });
+window.Echo = new Echo({
+    broadcaster: 'pusher',
+    key: process.env.MIX_PUSHER_APP_KEY,
+    cluster: process.env.MIX_PUSHER_APP_CLUSTER,
+    forceTLS: true
+});

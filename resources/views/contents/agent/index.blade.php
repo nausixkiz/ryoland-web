@@ -22,6 +22,7 @@
                                             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
+                                    <p class="text-muted">With {{ $item->properties->count() }} Properties In Our System.</p>
                                 </div>
                             </div>
                         </div>

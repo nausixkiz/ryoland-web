@@ -17,7 +17,7 @@
 <meta name="msapplication-TileImage" content="{{ asset('images/favicon/ms-icon-144x144.png') }}">
 <meta name="theme-color" content="#ffffff">
 
-<!-- Responsive css -->
+<!-- Icon css -->
 <link rel="stylesheet" href="{{ asset( 'vendors/css/font-icons.css' ) }}">
 <!-- Plugins css -->
 <link rel="stylesheet" href="{{ asset( mix('css/plugins.css')) }}">
