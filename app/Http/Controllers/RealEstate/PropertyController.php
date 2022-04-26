@@ -28,7 +28,7 @@ class PropertyController extends Controller
         $mapScriptMarkerRender = '';
 
         foreach (Property::all() as $property) {
-            $mapScriptMarkerRender .= "L.marker([" . $property->latitude . ", " . $property->longitude . "]).addTo(map).bindPopup('<b>" . $property->name . "</b>').openPopup();" . PHP_EOL;
+            $mapScriptMarkerRender .= "L.marker([" . $property->latitude . ", " . $property->longitude . "]).addTo(map);" . PHP_EOL;
 
         }
 
