@@ -181,7 +181,7 @@
                         </div>
                         <!-- Form Widget -->
                         <div class="widget ltn__form-widget">
-                            <h4 class="ltn__widget-title ltn__widget-title-border-2">Contact</h4>
+                            <h4 class="ltn__widget-title ltn__widget-title-border-2">Send Contact To {{ $property->user->name }}</h4>
                             <form action="#">
                                 <input type="text" name="name" placeholder="Your Name*">
                                 <input type="text" name="phone" placeholder="Your Phone*">

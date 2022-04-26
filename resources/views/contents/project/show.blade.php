@@ -131,7 +131,7 @@
                         </div>
                         <!-- Form Widget -->
                         <div class="widget ltn__form-widget">
-                            <h4 class="ltn__widget-title ltn__widget-title-border-2">Drop Messege For Book</h4>
+                            <h4 class="ltn__widget-title ltn__widget-title-border-2">Send Contact To {{ $project->user->name }}</h4>
                             <form action="#">
                                 <input type="text" name="yourname" placeholder="Your Name*">
                                 <input type="text" name="youremail" placeholder="Your e-Mail*">
