@@ -54,7 +54,7 @@
                                 <li>
                                     <!-- header-top-btn -->
                                     <div class="header-top-btn">
-                                        <a href="add-listing.html">Add Listing</a>
+                                        <a href="javascript:void(0)">Add Listing</a>
                                     </div>
                                 </li>
                             </ul>
@@ -132,42 +132,6 @@
                             </form>
                         </div>
                     </div>
-                    <!-- user-menu -->
-                    <div class="ltn__drop-menu user-menu">
-                        <ul>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <i class="icon-user"></i>
-                                </a>
-                                <ul>
-                                    @guest
-                                        <li>
-                                            <a href="{{ route('login') }}">Sign in</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('register') }}">Register</a>
-                                        </li>
-                                    @endguest
-                                    @auth
-                                        <li>
-                                            <a href="account.html">My Account</a>
-                                        </li>
-                                        <li>
-                                            <a href="wishlist.html">Wishlist</a>
-                                        </li>
-                                    @endauth
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-{{--                    <!-- mini-cart -->--}}
-{{--                    <div class="mini-cart-icon">--}}
-{{--                        <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">--}}
-{{--                            <i class="icon-shopping-cart"></i>--}}
-{{--                            <sup>2</sup>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                    <!-- mini-cart -->--}}
                     <!-- Mobile Menu Button -->
                     <div class="mobile-menu-toggle d-xl-none">
                         <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">

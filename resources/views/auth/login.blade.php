@@ -8,8 +8,7 @@
                 <div class="col-lg-12">
                     <div class="section-title-area text-center">
                         <h1 class="section-title">Sign In <br>To Your Account</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
-                            Sit aliquid, Non distinctio vel iste.</p>
+                        <p>Sign in or join another way.</p>
                     </div>
                 </div>
             </div>
@@ -57,16 +56,18 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="account-create text-center pt-50">
-                        <h4>DON'T HAVE AN ACCOUNT?</h4>
-                        <p>Add items to your wishlistget personalised recommendations <br>
-                            check out more quickly track your orders register</p>
-                        <div class="btn-wrapper">
-                            <a href="{{ route('register') }}" class="theme-btn-1 btn black-btn">CREATE ACCOUNT</a>
+                @if(Route::has('register'))
+                    <div class="col-lg-6">
+                        <div class="account-create text-center pt-50">
+                            <h4>DON'T HAVE AN ACCOUNT?</h4>
+                            <p>Add items to your wishlist and get personalised recommendations <br>
+                                check out more quickly track your orders register</p>
+                            <div class="btn-wrapper">
+                                <a href="{{ route('register') }}" class="theme-btn-1 btn black-btn">CREATE ACCOUNT</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                @endif
             </div>
         </div>
     </div>

@@ -14,8 +14,8 @@
                                 <div class="ltn__car-dealer-form-tab">
                                     <div class="ltn__tab-menu  text-uppercase text-center">
                                         <div class="nav">
-                                            <a class="active show" data-bs-toggle="tab" href="#ltn__form_tab_1_1"><i class="fas fa-home"></i>Rent Home</a>
-                                            <a data-bs-toggle="tab" href="#ltn__form_tab_1_2" class=""><i class="fas fa-home"></i>Sale Home</a>
+                                            <a class="active show" data-bs-toggle="tab" href="#ltn__form_tab_1_1"><i class="fa-solid fa-house"></i> Rent Home</a>
+                                            <a data-bs-toggle="tab" href="#ltn__form_tab_1_2" class=""><i class="fa-solid fa-house-day"></i> Sale Home</a>
                                         </div>
                                     </div>
                                     <div class="tab-content pb-10">
@@ -80,7 +80,7 @@
                                                     <div class="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-calendar col-lg-12 col-md-12">
                                                         <div class="btn-wrapper text-center mt-0">
                                                             <!-- <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> -->
-                                                            <a href="shop-right-sidebar.html" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search</a>
+                                                            <a href="javascript:void(0)" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search</a>
                                                         </div>
                                                     </div>
                                                 </form>

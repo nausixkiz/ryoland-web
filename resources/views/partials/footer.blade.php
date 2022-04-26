@@ -2,7 +2,7 @@
     <div class="footer-top-area  section-bg-2 plr--5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-5 col-md-6 col-sm-6 col-12">
                     <div class="footer-widget footer-about-widget">
                         <div class="footer-logo">
                             <div class="site-logo">
@@ -57,8 +57,8 @@
                             <ul>
                                 <li><a href="javascript:void(0)">About</a></li>
                                 <li><a href="javascript:void(0)">Blog</a></li>
-                                <li><a href="javascript:void(0)">All Products</a></li>
-                                <li><a href="javascript:void(0)">Locations Map</a></li>
+                                <li><a href="javascript:void(0)">Services</a></li>
+                                <li><a href="javascript:void(0)">Agents</a></li>
                                 <li><a href="javascript:void(0)">FAQ</a></li>
                                 <li><a href="javascript:void(0)">Contact us</a></li>
                             </ul>
@@ -70,27 +70,12 @@
                         <h4 class="footer-title">Services</h4>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="javascript:void(0)">Order tracking</a></li>
-                                <li><a href="javascript:void(0)">Wish List</a></li>
-                                <li><a href="javascript:void(0)">Login</a></li>
-                                <li><a href="javascript:void(0)">My account</a></li>
-                                <li><a href="javascript:void(0)">Terms & Conditions</a></li>
-                                <li><a href="javascript:void(0)">Promotional Offers</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-md-6 col-sm-6 col-12">
-                    <div class="footer-widget footer-menu-widget clearfix">
-                        <h4 class="footer-title">Customer Care</h4>
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="javascript:void(0)">Login</a></li>
-                                <li><a href="javascript:void(0)">My account</a></li>
-                                <li><a href="javascript:void(0)">Wish List</a></li>
-                                <li><a href="javascript:void(0)">Order tracking</a></li>
-                                <li><a href="javascript:void(0)">FAQ</a></li>
-                                <li><a href="javascript:void(0)">Contact us</a></li>
+                                <li><a href="javascript:void(0)">Search Homes</a></li>
+                                <li><a href="javascript:void(0)">Buy</a></li>
+                                <li><a href="javascript:void(0)">Sell</a></li>
+                                <li><a href="javascript:void(0)">Towns</a></li>
+                                <li><a href="javascript:void(0)">Home Sale Stats</a></li>
+                                <li><a href="javascript:void(0)">Meet The Team</a></li>
                             </ul>
                         </div>
                     </div>
