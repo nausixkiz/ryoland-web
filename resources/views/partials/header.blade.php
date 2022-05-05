@@ -33,21 +33,21 @@
                                                 <ul>
                                                     @if(currency()->hasCurrency('USD'))
                                                         <li>
-                                                            <a href="{{ url()->full() . '?currency=USD' }}">
+                                                            <a href="{{ url()->current() . '?currency=USD' }}">
                                                                 <i class="currency-flag currency-flag-usd"></i> USD
                                                             </a>
                                                         </li>
                                                     @endif
                                                     @if(currency()->hasCurrency('EUR'))
                                                         <li>
-                                                            <a href="{{ url()->full() . '?currency=EUR' }}">
+                                                            <a href="{{ url()->current() . '?currency=EUR' }}">
                                                                 <i class="currency-flag currency-flag-eur"></i> EUR
                                                             </a>
                                                         </li>
                                                     @endif
                                                     @if(currency()->hasCurrency('VND'))
                                                         <li>
-                                                            <a href="{{ url()->full() . '?currency=VND' }}">
+                                                            <a href="{{ url()->current() . '?currency=VND' }}">
                                                                 <i class="currency-flag currency-flag-vnd"></i> VND
                                                             </a>
                                                         </li>
