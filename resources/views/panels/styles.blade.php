@@ -27,3 +27,13 @@
 <link rel="stylesheet" href="{{ asset( 'vendors/css/responsive.css' ) }}">
 
 @stack('page-styles')
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T2X9JFWKYR"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2X9JFWKYR');
+</script>
