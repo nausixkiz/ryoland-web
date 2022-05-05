@@ -33,7 +33,7 @@
                                         </ul>
                                     </div>
                                     <div class="ltn__blog-btn">
-                                        <a href="{{ route('news.show', $blog->slug) }}">Read more</a>
+                                        <a href="{{ route('news.show', $blog->slug) }}"> Read more</a>
                                     </div>
                                 </div>
                             </div>

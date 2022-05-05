@@ -8,11 +8,11 @@
                         <ul>
                             <li>
                                 <a href="mailto:admin@ryoland.com?Subject=Flower%20greetings%20to%20you">
-                                    <i class="icon-mail"></i> admin@ryoland.com</a>
+                                    <i class="fa-regular fa-envelope-open"></i></i> admin@ryoland.com</a>
                             </li>
                             <li>
                                 <a href="locations.html">
-                                    <i class="icon-placeholder"></i> 15/A, Nest Tower, NYC
+                                    <i class="fa-regular fa-address-card"></i> 15/A, Nest Tower, NYC
                                 </a>
                             </li>
                         </ul>
@@ -22,18 +22,36 @@
                     <div class="top-bar-right text-end">
                         <div class="ltn__top-bar-menu">
                             <ul>
-                                <li class="d-none">
-                                    <!-- ltn__language-menu -->
-                                    <div class="ltn__drop-menu ltn__currency-menu ltn__language-menu">
+                                <li>
+                                    <div class="ltn__drop-menu ltn__currency-menu">
                                         <ul>
-                                            <li><a href="#" class="dropdown-toggle"><span class="active-currency">English</span></a>
+                                            <li>
+                                                <a href="javascript:void(0)" class="dropdown-toggle">
+                                                    <em class="currency-flag currency-flag-{{ \Illuminate\Support\Str::lower(currency()->getUserCurrency()) }}"></em>
+                                                    <span class="active-currency"> {{ currency()->getUserCurrency() }}</span>
+                                                </a>
                                                 <ul>
-                                                    <li><a href="#">Arabic</a></li>
-                                                    <li><a href="#">Bengali</a></li>
-                                                    <li><a href="#">Chinese</a></li>
-                                                    <li><a href="#">English</a></li>
-                                                    <li><a href="#">French</a></li>
-                                                    <li><a href="#">Hindi</a></li>
+                                                    @if(currency()->hasCurrency('USD'))
+                                                        <li>
+                                                            <a href="{{ url()->full() . '?currency=USD' }}">
+                                                                <i class="currency-flag currency-flag-usd"></i> USD
+                                                            </a>
+                                                        </li>
+                                                    @endif
+                                                    @if(currency()->hasCurrency('EUR'))
+                                                        <li>
+                                                            <a href="{{ url()->full() . '?currency=EUR' }}">
+                                                                <i class="currency-flag currency-flag-eur"></i> EUR
+                                                            </a>
+                                                        </li>
+                                                    @endif
+                                                    @if(currency()->hasCurrency('VND'))
+                                                        <li>
+                                                            <a href="{{ url()->full() . '?currency=VND' }}">
+                                                                <i class="currency-flag currency-flag-vnd"></i> VND
+                                                            </a>
+                                                        </li>
+                                                    @endif
                                                 </ul>
                                             </li>
                                         </ul>
@@ -80,7 +98,7 @@
                         </div>
                         <div class="get-support clearfix d-none">
                             <div class="get-support-icon">
-                                <i class="icon-call"></i>
+                                <i class="fa-regular fa-phone"></i>
                             </div>
                             <div class="get-support-info">
                                 <h6>Get Support</h6>
@@ -119,15 +137,15 @@
                     <div class="header-search-wrap">
                         <div class="header-search-1">
                             <div class="search-icon">
-                                <i class="icon-search for-search-show"></i>
-                                <i class="icon-cancel  for-search-close"></i>
+                                <em class="fa-solid fa-magnifying-glass for-search-show"></em>
+                                <em class="icon-cancel fa-x for-search-close"></em>
                             </div>
                         </div>
                         <div class="header-search-1-form">
                             <form id="#" method="get"  action="#">
                                 <input type="text" name="search" value="" placeholder="Search here..."/>
                                 <button type="submit">
-                                    <span><i class="icon-search"></i></span>
+                                    <span><em class="fa-solid fa-magnifying-glass"></em></span>
                                 </button>
                             </form>
                         </div>

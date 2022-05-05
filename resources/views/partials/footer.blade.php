@@ -16,7 +16,7 @@
                             <ul>
                                 <li>
                                     <div class="footer-address-icon">
-                                        <i class="icon-placeholder"></i>
+                                        <i class="fa-regular fa-address-card"></i>
                                     </div>
                                     <div class="footer-address-info">
                                         <p>Brooklyn, New York, United States</p>
@@ -24,7 +24,7 @@
                                 </li>
                                 <li>
                                     <div class="footer-address-icon">
-                                        <i class="icon-call"></i>
+                                        <i class="fa-regular fa-phone"></i>
                                     </div>
                                     <div class="footer-address-info">
                                         <p><a href="tel:+84963639070">+84963639070</a></p>
@@ -32,7 +32,7 @@
                                 </li>
                                 <li>
                                     <div class="footer-address-icon">
-                                        <i class="icon-mail"></i>
+                                        <i class="fa-regular fa-envelope-open"></i>
                                     </div>
                                     <div class="footer-address-info">
                                         <p><a href="mailto:admin@ryoland.com">admin@ryoland.com</a></p>

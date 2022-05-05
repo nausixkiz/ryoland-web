@@ -23,6 +23,7 @@ mixAssetsDir('vendors/js/**/*.js', (src, dest) => mix.scripts(src, dest));
 mixAssetsDir('vendors/js/**/*.js.map', (src, dest) => mix.scripts(src, dest));
 mixAssetsDir('vendors/css/**/*.css', (src, dest) => mix.copy(src, dest));
 mixAssetsDir('vendors/webfonts', (src, dest) => mix.copy(src, dest));
+mixAssetsDir('vendors/fonts', (src, dest) => mix.copy(src, dest));
 
 mix.copyDirectory('resources/images', 'public/images');
 
