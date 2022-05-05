@@ -6,7 +6,7 @@
                     <div class="footer-widget footer-about-widget">
                         <div class="footer-logo">
                             <div class="site-logo">
-                                <img src="{{ asset('images/logo-vertical-blue/fulllogo_transparent_nobuffer.png') }}" alt="logo"
+                                <img src="{{ asset('images/logo-vertical-white/fulllogo_transparent_nobuffer.png') }}" alt="logo"
                                      style="height: 60px">
                             </div>
                         </div>

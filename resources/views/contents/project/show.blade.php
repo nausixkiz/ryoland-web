@@ -100,13 +100,16 @@
                                                 </ul>
                                             </div>
                                             <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                <li><span>{{ $item->number_block }} </span>
+                                                <li>
+                                                    <span>{{ $item->number_block }} </span>
                                                     Blocks
                                                 </li>
-                                                <li><span>{{ $item->number_floor }} </span>
+                                                <li>
+                                                    <span>{{ $item->number_floor }} </span>
                                                     Floors
                                                 </li>
-                                                <li><span>{{ $item->number_flat }} </span>
+                                                <li>
+                                                    <span>{{ $item->number_flat }} </span>
                                                     Flats
                                                 </li>
                                             </ul>
