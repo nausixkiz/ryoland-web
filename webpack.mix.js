@@ -28,6 +28,7 @@ mixAssetsDir('vendors/fonts', (src, dest) => mix.copy(src, dest));
 mix.copyDirectory('resources/images', 'public/images');
 
 mix.js('resources/js/app.js', 'public/js')
+    .js('resources/js/alpine.js', 'public/js')
     .sass('resources/sass/styles.scss', 'public/css')
     .sass('resources/sass/plugins.scss', 'public/css')
     .webpackConfig(require('./webpack.config'))

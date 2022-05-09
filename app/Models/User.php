@@ -102,13 +102,13 @@ class User extends Authenticatable implements HasMedia
     {
         tap($this->profile_photo_path, function ($previous) use ($photo) {
             $this->forceFill([
-                'profile_photo_path' => $photo->storePublicly(
-                    'profile-photos', ['disk' => $this->profilePhotoDisk()]
+                'profile_photo_path' => $photo->store(
+                    'profile-photos', ['disk' => 's3Public']
                 ),
             ])->save();
 
             if ($previous) {
-                Storage::disk($this->profilePhotoDisk())->delete($previous);
+                Storage::disk('s3Public')->delete($previous);
             }
         });
     }

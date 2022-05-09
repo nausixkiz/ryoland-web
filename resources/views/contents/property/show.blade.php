@@ -101,7 +101,7 @@
                                         <a href="{{ route('real-estate.properties.show', $item->slug) }}"><img src="{{ $property->getThumbnailConversionUrl() }}" alt="{{ $item->name }}"></a>
                                         <div class="real-estate-agent">
                                             <div class="agent-img">
-                                                <a href="javascript:void(0)"><img src="{{ Avatar::create($item->user->name) }}" alt="{{ $item->user->name }}"></a>
+                                                <a href="javascript:void(0)"><img src="{{ $item->user->profile_photo_url }}" alt="{{ $item->user->name }}"></a>
                                             </div>
                                         </div>
                                     </div>

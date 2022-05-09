@@ -51,7 +51,7 @@
                                                 </a>
                                                 <div class="real-estate-agent">
                                                     <div class="agent-img">
-                                                        <a href="javascript:void(0)"><img src="{{ Avatar::create($item->user->name) }}" alt="{{ $item->user->name }}"></a>
+                                                        <a href="javascript:void(0)"><img src="{{ $item->user->profile_photo_url }}" alt="{{ $item->user->name }}"></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -116,7 +116,7 @@
                                             <div class="product-info-bottom">
                                                 <div class="real-estate-agent">
                                                     <div class="agent-img">
-                                                        <a href="javascript:void(0)"><img src="{{ Avatar::create($item->user->name) }}" alt="{{ $item->user->name }}"></a>
+                                                        <a href="javascript:void(0)"><img src="{{ $item->user->profile_photo_url }}" alt="{{ $item->user->name }}"></a>
                                                     </div>
                                                     <div class="agent-brief">
                                                         <h6><a href="team-details.html">{{ $item->user->name }}</a></h6>

@@ -104,7 +104,7 @@
                                                 <p>We want to give you <b>10% discount</b> for your first order, <br>
                                                     Use discount code at checkout</p>
                                                 <div class="payment-method">
-                                                    <img src="img/icons/payment.png" alt="#">
+                                                    <img src="{{ asset('images/icons/payment.png') }}" alt="#">
                                                 </div>
                                             </div>
                                         </div>

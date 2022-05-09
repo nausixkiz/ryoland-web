@@ -28,7 +28,8 @@
                                             <li>
                                                 <a href="javascript:void(0)" class="dropdown-toggle">
                                                     <em class="currency-flag currency-flag-{{ \Illuminate\Support\Str::lower(currency()->getUserCurrency()) }}"></em>
-                                                    <span class="active-currency"> {{ currency()->getUserCurrency() }}</span>
+                                                    <span
+                                                        class="active-currency"> {{ currency()->getUserCurrency() }}</span>
                                                 </a>
                                                 <ul>
                                                     @if(currency()->hasCurrency('USD'))
@@ -92,7 +93,8 @@
                     <div class="site-logo-wrap">
                         <div class="site-logo">
                             <a href="{{ route('home') }}">
-                                <img src="{{ asset('images/logo-vertical-blue/fulllogo_transparent_nobuffer.png') }}" alt="logo"
+                                <img src="{{ asset('images/logo-vertical-blue/fulllogo_transparent_nobuffer.png') }}"
+                                     alt="logo"
                                      style="height: 60px">
                             </a>
                         </div>
@@ -142,7 +144,7 @@
                             </div>
                         </div>
                         <div class="header-search-1-form">
-                            <form id="#" method="get"  action="#">
+                            <form id="#" method="get" action="#">
                                 <input type="text" name="search" value="" placeholder="Search here..."/>
                                 <button type="submit">
                                     <span><em class="fa-solid fa-magnifying-glass"></em></span>
@@ -150,13 +152,37 @@
                             </form>
                         </div>
                     </div>
+                    <div class="ltn__drop-menu user-menu">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="icon-user"></i></a>
+                                <ul>
+                                    @guest()
+                                        <li><a href="{{ route('login') }}">Sign In</a></li>
+                                        @if(Route::has('register'))
+                                            <li><a href="{{ route('register') }}">Sign Up</a></li>
+                                        @endif
+                                    @endguest
+                                    @auth
+                                        <li><a href="{{ route('profile.show') }}">My Account</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                    @endauth
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                     <!-- Mobile Menu Button -->
                     <div class="mobile-menu-toggle d-xl-none">
                         <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
                             <svg viewBox="0 0 800 600">
-                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+                                <path
+                                    d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                                    id="top"></path>
                                 <path d="M300,320 L540,320" id="middle"></path>
-                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                                <path
+                                    d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                                    id="bottom"
+                                    transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
                             </svg>
                         </a>
                     </div>

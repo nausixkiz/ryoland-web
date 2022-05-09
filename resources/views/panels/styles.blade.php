@@ -37,3 +37,5 @@
 
     gtag('config', 'G-T2X9JFWKYR');
 </script>
+
+@livewireStyles

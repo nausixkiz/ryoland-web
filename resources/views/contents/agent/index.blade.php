@@ -10,7 +10,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="ltn__team-item ltn__team-item-3---">
                                 <div class="team-img">
-                                    <img src="{{ Avatar::create($item->name) }}" alt="{{ $item->name }}">
+                                    <img src="{{ $item->profile_photo_url }}" alt="{{ $item->name }}">
                                 </div>
                                 <div class="team-info">
                                     <h4><a href="javascript:void(0)">{{ $item->name }}</a></h4>

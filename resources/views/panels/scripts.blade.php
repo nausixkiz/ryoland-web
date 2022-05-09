@@ -5,3 +5,7 @@
 {!! NoCaptcha::renderJs() !!}
 
 @stack('page-scripts')
+
+@livewireScripts
+
+<script src="{{ asset( mix('js/alpine.js')) }}"></script>

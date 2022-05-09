@@ -40,7 +40,7 @@
                                         <div class="ltn__blog-meta">
                                             <ul>
                                                 <li class="ltn__blog-author">
-                                                    <a href="#"><img src="{{ Avatar::create($blog->user->name)->toBase64() }}" alt="{{ $blog->user->name }}">By: {{ $blog->user->name }}</a>
+                                                    <a href="#"><img src="{{ $blog->user->profile_photo_url }}" alt="{{ $blog->user->name }}">By: {{ $blog->user->name }}</a>
                                                 </li>
                                             </ul>
                                         </div>

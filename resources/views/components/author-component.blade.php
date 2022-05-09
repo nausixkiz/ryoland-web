@@ -1,6 +1,6 @@
 <div class="widget ltn__author-widget">
     <div class="ltn__author-widget-inner text-center">
-        <img src="{{ Avatar::create($author->name) }}" alt="{{ $author->name }}">
+        <img src="{{ $author->profile_photo_url }}" alt="{{ $author->name }}">
         <h5>{{ $author->name }}</h5>
         <small>{{ $author->getRoleName() }}</small>
         <div class="product-ratting">
